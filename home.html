@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HOME</title>
+	<meta charset="UTF-8">
+	<meta charset="pt-br">
+	<link rel="stylesheet" type="text/css" href="home_css.css">
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.cycle.all.js"></script>
+	<script type="text/javascript">
+		$(function (){
+			$("#slides ul").cycle ({
+				fx: 'turnDown',
+				speed: 1400,
+				timeout: 1800,
+				prev: '#previous',
+				next: '#next',
+
+			})
+		})
+	</script>
+
+	<script type="text/javascript">
+		$(function (){
+			$("#slidesLug ul").cycle ({
+				fx: 'turnDown',
+				speed: 1400,
+				timeout: 1800,
+				prev: '#previous',
+				next: '#next',
+
+			})
+		})
+	</script>
+</head>
+
+<body>
+	<div class="cabecalho">
+		<img src="logo.jpg" width="400" height="40" alt="Logo do Site">
+		<button class="bini">CONTATO</button>
+		<button class="bini" style="font-size: 20px; line-height: 18px;">COMIDAS TÍPICAS</button>
+		<button class="bini" style="font-size: 20px; line-height: 18px;">PONTOS TURISTICOS</button>
+		<a href="sobre.html"><button class="bini">SOBRE</button></a>
+		<a href="home.html"><button class="bini">HOME</button></a>	
+	</div>
+
+	<br>
+	<br>
+
+	<div class="parUm">
+
+		<p><j>BEM-VINDO</j> ao nosso website <strong>"Piauí: Lugares e Rangos"</strong>, buscaremos informar a você, leitor, sobre os principais pontos turísticos do estado do Piauí e as princípais e mais delíciosas comidas típicas do estado.</p>
+
+		<p><j>N0SSA MISSÃO</j> é levar aos nossos leitores informações refinadas e precisas sobre conteúdos relacionados a pontos turísticos e comidas típicas do estado do Piauí, buscando sempre manter a ética e a imparcialidade, para que com isso possamos ser cada vez mais dignos da confiança e admiração de você leitor.</p>
+
+		<p>
+			<j>NOSSO OBJETIVO</j> antes de mais nada é atender as informações que você leitor procura. Sendo assim, devemos expor informações precisas sobre:
+				<dl style="margin-left: 100px;"> 
+					<dt>Pontos Turísticos:</dt>
+						<dd>
+							Buscaremos informar sobre a identificação dos principais pontos turisticos do Piauí, sua localização <em>(região, cidade, etc)</em>, custos por turista, onde se hospedar, como chegar, empresas de guias, contra-indicações <em>(por exemplo, não ir a determinada trilha sem possuir problemas de coluna</em>, principais razões para visitar tal ponto turistico, etc.
+						</dd>
+						<br>
+					<dt>Comidas Típicas:</dt>
+						<dd>
+							Quanto aos pratos típicos, iremos buscar informar sobre a identificação do prato, onde encontrar <em>(região)</em>, quanto custa, ingredientes, receitas, contra-indicações <em>(por exemplo, se alguém com intolerância a lactose pode comer determinada comida</em>, benefícios para a saúde, etc.
+						</dd>
+				</dl>
+		</p>
+		
+		<h2>Alguns Lugares</h2>
+
+		<p>No momento que alguém decide realizar visita a um estado, é interessante e essencial que este turista tenha conhecimento a cerca dos principais e mais agradáveis lugares que o estado (<em>Piauí</em>) oferece como opção de passeio.</p>
+		<p>Mais importante ainda do obter conhecimento como turista é obter conhecimento como pessoa que venha a mudar-se para o estado em questão (<em>Piauí</em>), pois está pessoa poderá estar em contato frequente com os pontos turísticos próximos à nova "morada".</p>
+		<p>Veja a seguir alguns dos principais pontos turísticos destaques no estado do Piauí, sendo estes os mais bem visitados e avaliados pelos turistas em todo o estado.</p>
+
+		<div id="slidesLug">
+			<ul>
+				<li><img src="lugares/dunas.jpg" width="400" height="250"></li>
+				<li><img src="lugares/pedra.jpg" width="400" height="250"></li>
+				<li><img src="lugares/cachoeira.jpg" width="400" height="250"></li>
+				<li><img src="lugares/poti.jpg" width="400" height="250"></li>
+			</ul>
+		</div>
+
+		<p class="antprox">
+				<a href="#" id="previous"><button class="bim">Anterior</button></a>
+				<strong style="color:white;">====================</strong>
+				<a href="#" id="next""><button class="bim">Próximo</button></a>
+		</p>
+		<p>Para conhecer mais dos principais pontos turisticos do estado do Piauí e conhecer a cerca de cada um deles, visite a página <a href=""><strong><em>lugares</em></strong></a> em nosso site.</p>
+
+		<h2>Algumas Comidas</h2>
+
+		<p>Tão importante quanto conhecer lugares lindos é recarregar as energias para aproveitar da melhor forma o passeio. Para isso é necessário que os você leitor e/ou turista tenha conhecimento a cerca dos mais típicos e delíciosos pratos piauiensese.</p>
+		<p>Da mesma forma do que tange aos lugares, é importante que pessoas que venham a residir no Piauí tenham conhecimento depurado das comidas típicas que passaram a comer no estado, uma vez que está terá, provavelmente, que aderir e/ou adaptar-se a alguns pratos típicos do estado do Piauí.</p>
+		<p>Veja a seguir alguns dos principais pratos típicos da culinária piauiense, sendo os mostrados abaixo os preferidos das pessoas que passeiam ou mudam-se para o estado do Piauí.</p>
+		
+		<div id="slides">
+			<ul>
+				<li><img src="comidas/galinha.jpg" width="400" height="250"></li>
+				<li><img src="comidas/mel.jpg" width="400" height="250"></li>
+				<li><img src="comidas/buxada.jpg" width="400" height="250"></li>
+				<li><img src="comidas/milho.jpg" width="400" height="250"></li>
+			</ul>
+		</div>
+
+		<p class="antprox">
+				<a href="#" id="previous"><button class="bim">Anterior</button></a>
+				<strong style="color:white;">====================</strong>
+				<a href="#" id="next""><button class="bim">Próximo</button></a>
+		</p>
+		<p>Para conhecer mais das principais comidas típicas do estado do Piauí e conhecer a cerca de cada uma delas, visite a página <a href=""><strong><em>comidas</em></strong></a> em nosso site.</p>
+
+		<p>Explore mais o nosso website acessando as demais páginas através do botões distribuídos no topo da página.<br>Desde já <strong>Muito Obrigado</strong> pela sua visita, e volte sempre. Serás sempre muito bem-vindo.</p>
+
+	</div>
+
+	<div class="finalPag">
+		<p style="text-align: center; padding: 8px;"><strong>BPW-Development | (89) 99921-8433</strong></p>
+	</div>
+
+</body>
+</html>

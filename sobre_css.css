@@ -1,0 +1,123 @@
+body{
+	margin-left: 50px;
+	margin-right: 50px;
+	font-family: Arial, sans-serif;
+}
+
+.bini{
+	background-color: white;
+	font-size: 25px;
+
+	border-top: 0px;
+	border-right: 0px;
+	border-left: 5px;
+	border-bottom: 0px;
+
+	border-color: blue;
+	border-style: solid;
+
+	width: 150px;
+	height: 40px;
+	text-align: center;
+	float: right;
+
+}
+
+#anuncio{
+	width: 400px;
+	height: 70px;
+	margin: 0 auto;
+	overflow: hidden;
+
+	margin-bottom: 10px;
+	margin-right: 10px;
+
+	margin-left: 12px;
+
+	float: left;
+	
+}
+
+ul{
+	text-align: left;
+}
+
+.conteudo{
+	margin-right: 300px;
+	line-height: 26px;
+}
+
+p{
+	font-size: 16px;
+	text-align: justify;
+}
+
+.bini:hover{
+	padding-top: 10px;
+	font-weight: bolder;
+	color:#0000CD;
+}
+
+.cabecalho{
+	position: fixed;
+	vertical-align: top;
+	position: fixed;
+	width: 92.5%;
+	top: 0;
+	z-index: 2000;
+	margin:0;
+
+	border-bottom: 2px;
+	border-right: 0px;
+	border-left: 0px;
+	border-top: 2px;
+	border-style: solid;
+
+	padding-top: 3px;
+	padding-bottom: 3px;
+
+	background-color: white;
+}
+
+.texto{
+	border-color: grey;
+	border-style: solid;
+
+
+	border-right: groove;
+	border-left: groove;
+
+	border-top: 0px;
+	border-bottom: 0px;
+
+	padding-right: 8px;
+	padding-left: 8px;
+}
+
+.desen{
+	background-color: #E0EEE0;
+
+	border-color: grey;
+	border-style: solid;
+
+
+	border-right: groove;
+	border-left: groove;
+	border-bottom: 0px;
+
+	padding-right: 8px;
+}
+
+.finalPag{
+	background-color: grey;
+	font-size: 18px;
+	text-align: center;
+}
+
+figcaption{
+	line-height: 25px;
+}
+
+img{
+	padding-right: 10px;
+}
